@@ -1,0 +1,10 @@
+# Make vi & vim = nvim
+alias vi='nvim'
+alias vim='nvim'
+
+# Quick access to the ~/.zshrc file
+alias zrc='$EDITOR ~/.zshrc'
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+

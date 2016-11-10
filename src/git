@@ -1,0 +1,48 @@
+# Basic
+alias g='git'
+alias gst='git status'
+alias gc='git clone'
+alias ga='git add'
+alias gpsh='git push'
+alias gpll='git pull'
+alias gpllr='git pull --rebase'
+alias gd='git diff'
+alias gclean='git clean -fd'
+alias gfa='git fetch --all --prune'
+
+# Branching
+alias gco='git checkout'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gbr='git branch --remote'
+
+# Remotes
+alias gr='git remote'
+alias grv='git remote -v'
+
+# Commits
+alias gc='git commit -v'
+alias gc!='git commit -v --amend'
+alias gca='git commit -v -a'
+alias gca!='git commit -v -a --amend'
+alias gcmsg='git commit -m'
+alias gcs='git commit -S'
+
+# Git Log
+alias glg='git log --stat --max-count = 10'
+alias glgg='git log --graph --max-count = 10'
+alias glgga='git log --graph --decorate --all'
+alias glo='git log --oneline --decorate --color'
+alias glog='git log --oneline --decorate --color --graph'
+alias glp='_git_log_prettily (git log --pretty=$1)'
+
+# Stash
+alias gsta='git stash save'
+alias gstaa='git stash apply'
+alias gstd='git stash drop'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gsts='git stash show --text'
+
+# Other
+alias gcl='git config --list'

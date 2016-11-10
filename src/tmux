@@ -1,0 +1,6 @@
+# Tmux
+alias tm='tmux -2'              # Force Tmux to use 256 Colors
+alias tl='tmux ls'              # List Tmux sessions
+alias tn='tmux new -s'          # Create a session named <name>
+alias ta='tmux attach -t'       # Attach to a session named <name>
+alias tk='tmux kill-session -t' # Kill a session named <name>
