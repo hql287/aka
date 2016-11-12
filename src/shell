@@ -9,7 +9,7 @@ fi
 alias zrc='$EDITOR ~/.zshrc'
 
 # Quickly access to the ~/.vimrc file
-alias zrc='$EDITOR ~/.vimrc'
+alias vrc='$EDITOR ~/.vimrc'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
