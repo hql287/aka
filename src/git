@@ -1,4 +1,5 @@
 # Basic
+alias git='hub'
 alias g='git'
 alias gst='git status'
 alias gc='git clone'

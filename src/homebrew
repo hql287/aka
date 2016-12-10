@@ -1,0 +1,7 @@
+# Homebrew
+alias bi='brew install'
+alias bu='brew uninstall'
+alias bs='brew services'
+alias bsl='brew services list'
+alias bsst='brew services start'
+alias bss='brew services stop'
