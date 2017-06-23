@@ -4,3 +4,6 @@ alias tn='tm new -s'          # Create a session named <name>
 alias ta='tm attach -t'       # Attach to a session named <name>
 alias tk='tm kill-session -t' # Kill a session named <name>
 alias tl='tm ls'              # List Tmux sessions
+
+# Tmuxniator
+alias mux='tmuxinator'
