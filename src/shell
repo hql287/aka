@@ -14,3 +14,6 @@ alias vrc='$EDITOR ~/.vimrc'
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
+# Quikly Change Workmode
+alias uwm='updateWorkMode'
+
